@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Céline</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tololo Observatory</h1>
+    </header>
+    <section class="about">
+      <img src="images/planet_tololo_carre.jpg" alt="Photo de Tololo" />
+      <h2>Présentation</h2>
+      <p>
+        Bonjour ! Je suis Fanny Lochu une développeuse web et formatrice basée
+        au sud de Paris.<br />
+        <a
+          href="https://www.linkedin.com/in/fanny-lochu-886a8a12a/"
+          target="_blank"
+          >Développeuse web full-stack</a
+        >
+        en freelance depuis 2007, je transmets également mes connaissances et
+        mon goût pour le code et la programmation en intervenant dans
+        différentes écoles en tant que formatrice.
+      </p>
+    </section>
+    <section class="skills">
+      <h2>Compétences</h2>
+      <div class="skills-content">
+        <div class="skills-column">
+          <div class="progress-container">
+            <span class="progress-badge">Chant</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 100%;"></div>
+              <span class="progress-value">100%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Photo</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">Vélo</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+              <span class="progress-value">60%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+        </div>
+        <!-- Fin .skills-column -->
+        <div class="skills-column">
+          <div class="progress-container">
+            <span class="progress-badge">CSS</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%;"></div>
+              <span class="progress-value">95%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+
+          <div class="progress-container">
+            <span class="progress-badge">BOOTSTRAP</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+              <span class="progress-value">90%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+            <span class="progress-badge">JAVASCRIPT</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+              <span class="progress-value">60%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+        </div>
+        <!-- Fin .skills-column -->
+      </div>
+      <!-- Fin .skills-content -->
+    </section>
+    <section class="timeline">
+      <h2>Expérience</h2>
+      <ul>
+        <!-- Début expérience 1 -->
+        <li>
+          <div class="bubble">
+            <time>2007 - aujourd'hui</time>
+            <span>Développeuse web freelance</span>
+            <br />France
+          </div>
+        </li>
+        <!-- Fin expérience 1 -->
+        <!-- Début expérience 2 -->
+        <li>
+          <div class="bubble">
+            <time>2013 - aujourd'hui</time>
+            <span>Formatrice - ESGCI</span>
+            <br />Paris, France
+          </div>
+        </li>
+        <!-- Fin expérience 2 -->
+        <!-- Début expérience 3 -->
+        <li>
+          <div class="bubble">
+            <time>2007 - aujourd'hui</time>
+            <span>blabla</span>
+            <br />France
+          </div>
+        </li>
+        <!-- Fin expérience 3 -->
+      </ul>
+    </section>
+    <section class="contact">
+      <h2>Contact
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13797.544908272817!2d-70.806343!3d-30.1689593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x36d8d4433e086395!2sAstronomical%20Observatory%20Cerro%20Tololo!5e0!3m2!1sen!2sfr!4v1618489964583!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form name="contact" method="POST" data-netlify="true">
+          <div class="row">
+            <div class="form-group">
+              <label>Nom</label>
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Votre email"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea
+              name="message"
+              placeholder="Votre message..."
+              required
+            ></textarea>
+          </div>
+          <button class="btn">Envoyer</button>
+        </form>
+      </h2>
+    </section>
+  </body>
+</html>
